@@ -1,0 +1,34 @@
+.sidebar {
+  width: $sidebar-width;
+  height: 100vh;
+
+
+  background: $primary;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: $z-index-sidebar;
+}
+.sidebar__content {
+
+  margin-top: -50px;
+  padding: 0 2rem;
+}
+.sidebar__header {
+  height: 180px;
+  background: $primary;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.sidebar__footer {
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+}
